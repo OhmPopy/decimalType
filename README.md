@@ -2,6 +2,9 @@
 decimal struct like c#. usable but not optimized for speed
 
 source from
+
+https://github.com/desperu/Earth
+
 https://github.com/lantaoxu/Windows-Server-2003
 
 https://referencesource.microsoft.com/#mscorlib/system/decimal.cs
