@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{3976ec79-337d-4f09-b7b0-ab02fc79740d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{c4fc60c5-1bed-4350-90d4-3a837e16b997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{0f5794cb-f9bb-4eb2-8e25-bf795fc9b6d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\NumberFormatInfo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ComCultureInfo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ComNumberRaw.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CQuickBytesBase.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Currency.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Decimal.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DecimalMath.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FCall.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FCallExtension.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BaseType.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Exception.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\DecimalTestDotNetMath.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\DecimalTestDotNet.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\DecimalTestDotNetFormat.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\DecimalTestDotNetHard.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\CppUnitTestAssert.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\random.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ComCultureInfo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ComNumberRaw.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Currency.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Decimal.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DecimalMath.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCall.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FCallExtension.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NumberFormatInfo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Exception.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\DecimalTestDotNet.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\DecimalTestDotNetFormat.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\DecimalTestDotNetHard.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\DecimalTestDotNetMath.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\CppUnitTestAssert.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\fptext.asm">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+</Project>
